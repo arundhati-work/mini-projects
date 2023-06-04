@@ -33,6 +33,16 @@ body{
    width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+    transition: text-decoration 0.3s ease-in;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 .container{
     text-align: center;
 }
